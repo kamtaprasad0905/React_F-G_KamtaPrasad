@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.ef531d33.css",
-    "main.js": "/static/js/main.e94d79ec.js",
-    "index.html": "/index.html",
-    "main.ef531d33.css.map": "/static/css/main.ef531d33.css.map",
-    "main.e94d79ec.js.map": "/static/js/main.e94d79ec.js.map"
+    "main.css": "/React_F-G_KamtaPrasad/static/css/main.ef531d33.css",
+    "main.js": "/React_F-G_KamtaPrasad/static/js/main.e94d79ec.js",
+    "index.html": "/React_F-G_KamtaPrasad/index.html",
+    "main.ef531d33.css.map": "/React_F-G_KamtaPrasad/static/css/main.ef531d33.css.map",
+    "main.e94d79ec.js.map": "/React_F-G_KamtaPrasad/static/js/main.e94d79ec.js.map"
   },
   "entrypoints": [
     "static/css/main.ef531d33.css",
