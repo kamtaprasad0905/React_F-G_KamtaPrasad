@@ -44,3 +44,11 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+Assignment
+
+Creact ReactApp using npx create-react-app my-app --template typescript I have used typescript using typescript we can write a clean code and and easy to find error and many others benifites typescript have
+
+install react-bootstrap using npm install react-bootstrap bootstrap For responsive and validation
+
+install react-router-dom using npm install react-router-dom For Routing purpose
