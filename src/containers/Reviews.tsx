@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import { Table } from "react-bootstrap";
+import React, { useEffect, useState } from "react";
+import { Button, Table } from "react-bootstrap";
 import { CustomerReviewParams } from "../Interfaces/CustomerReviewParams";
 import HeaderReview from "../shared/HeaderReview";
 const getReviews = () => {
@@ -12,8 +12,20 @@ const getReviews = () => {
 };
 
 const Reviews = () => {
-  const [reviews, setReviews] = useState<CustomerReviewParams>(getReviews());
+  const [reviews, setReviews] = useState<CustomerReviewParams | []>(getReviews());
+  const [loading, setLoading] = useState(false);
+  const deleteAllReviews = () => {
+    setLoading(true);
+    localStorage.removeItem("reviews");
 
+    setTimeout(() => {
+      setLoading(false);
+      setReviews([]);
+    }, 1000);
+  };
+  useEffect(() => {
+    getReviews();
+  }, [loading]);
   return (
     <div className="card-review">
       <div className="m-4 bg-color-review p-4">
@@ -52,6 +64,11 @@ const Reviews = () => {
             </tbody>
           </Table>
         </div>
+        {reviews.length > 0 ? (
+          <Button variant="danger" onClick={deleteAllReviews} disabled={loading} className="delete-btn" type="submit">
+            {!loading ? "Delete" : "Deleting"}
+          </Button>
+        ) : null}
       </div>
     </div>
   );

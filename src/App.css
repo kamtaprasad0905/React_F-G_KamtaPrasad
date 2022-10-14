@@ -59,6 +59,15 @@ tr, td {
     bottom: -75px;
 }
 
+.delete-btn {
+    position: absolute;
+    margin-top: 50px;
+    display: flex;
+    justify-content: end;
+    right: 35px;
+    bottom: 30px;
+}
+
 label:has(+ input:required)::after {
     content: " *" !important;
     color: red !important;
