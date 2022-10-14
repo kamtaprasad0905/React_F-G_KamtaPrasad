@@ -1,4 +1,4 @@
--------------------------------------------------------------Assignment---------------------------------------------------------------------------------
+-------------------------------------------------------------Assignment-------------------------------------------
 
 Creact ReactApp using npx create-react-app my-app --template typescript
 I have used typescript using typescript we can write a clean code
@@ -11,12 +11,12 @@ install react-router-dom using npm install react-router-dom
 For Routing purpose
 
 Folder structure
-assests------->For images
-components------->For Forms and validation purpose
-constants-----------> routing 
-containers-------------> logical and some code for containing child component using components folder
-interface-----------------> Defining Type for variables and other interfaces
-shared-----------------------> shared components
+assests------>For images
+components--->For Forms and validation purpose
+constants----> routing 
+containers---> logical and some code for containing child component using components folder
+interface----> Defining Type for variables and other interfaces
+shared-------> shared components
 
 
 
