@@ -1,3 +1,29 @@
+-------------------------------------------------------------Assignment---------------------------------------------------------------------------------
+
+Creact ReactApp using npx create-react-app my-app --template typescript
+I have used typescript using typescript we can write a clean code
+and easy to find error and many others benifites typescript have
+
+install react-bootstrap using npm install react-bootstrap bootstrap
+Responsive and validation
+
+install react-router-dom using npm install react-router-dom 
+For Routing purpose
+
+Folder structure
+assests------->For images
+components------->For Forms and validation purpose
+constants-----------> routing 
+containers-------------> logical and some code for containing child component using components folder
+interface-----------------> Defining Type for variables and other interfaces
+shared-----------------------> shared components
+
+
+
+                                                                                                                                    Thanks For giving me opportunity
+                                                                                                                                    
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
